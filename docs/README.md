@@ -4,8 +4,8 @@ bgImage: '/banner.jpg'
 bgImageStyle: {
   height: '450px'
 }
-faceImage: '/head.png'
-heroImage: /hero_write.png
+faceImage: '/avatar.jpg'
+heroImage: /avatar.jpg
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
@@ -23,5 +23,5 @@ features:
   details: In a city? On earth? Or in a small part of space?
 - title: What am I gona do？
   details: Work? Struggle? Or go to a destination I don't know?
-# footer: 'reco_luan'
+# footer: 'alexlxy'
 ---

@@ -2,17 +2,17 @@ module.exports = {
   type: 'blog',
   fullscreen: true,
   mode: 'light',
-  authorAvatar: '/head.jpg',
-  logo: '/head.jpg',
+  authorAvatar: '/logo.png',
+  logo: '/logo.png',
   // 博客设置
   blogConfig: {
     category: {
       location: 2, // 在导航栏菜单中所占的位置，默认2
-      text: 'Category' // 默认 “分类”
+      text: '分类' // 默认 “分类”
     },
     tag: {
       location: 3, // 在导航栏菜单中所占的位置，默认3
-      text: 'Tag' // 默认 “标签”
+      text: '标签' // 默认 “标签”
     }
   },
   markdown: {
@@ -21,9 +21,9 @@ module.exports = {
   // 最后更新时间
   lastUpdated: 'Last Updated', // string | boolean
   // 作者
-  author: 'Qiu Zhongrun',
+  author: 'alexlxy',
   // 备案号
-  record: '5163406',
+  record: '审核中',
   // 项目开始时间
   startYear: '2020',
   search: true,

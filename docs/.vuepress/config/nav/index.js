@@ -1,11 +1,11 @@
 module.exports = [
-  { text: 'Home', link: '/', icon: 'reco-home' },
-  { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-  { text: 'Contact', 
+  { text: '首页', link: '/', icon: 'reco-home' },
+  { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+  { text: '联系方式', 
     icon: 'reco-message',
     items: [
       { text: 'About', link: '/views/about/', icon: 'reco-account' },
-      { text: 'GitHub', link: 'https://github.com/qiuzhongrun/blog', icon: 'reco-github' },
+      { text: 'GitHub', link: 'https://github.com/alexlxy', icon: 'reco-github' },
     ]
   }
 ]
