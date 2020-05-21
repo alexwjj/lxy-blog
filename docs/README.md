@@ -1,6 +1,6 @@
 ---
 home: true
-bgImage: '/banner.jpg'
+bgImage: '/bannerW.webp'
 bgImageStyle: {
   height: '450px'
 }

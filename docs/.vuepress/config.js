@@ -1,7 +1,7 @@
 const themeConfig = require('./config/theme/')
 
 module.exports = {
-  base: '/blog/',
+  base: '/',
   title: "努力终有回报",
   description: '种一棵树，最好的时机是十年前，其次是现在',
   dest: 'docs/.vuepress/dist',
@@ -26,7 +26,7 @@ module.exports = {
         clean: true,
         modelStyle: {
           position: "fixed",
-          left: "0px",
+          right: "0px",
           bottom: "0px",
           opacity: "0.9",
           zIndex: 99999
