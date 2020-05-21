@@ -20,6 +20,10 @@
     "vuepress-theme-reco": "1.0.8-alpha.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.4.0",
+    "nodemon": "^2.0.4",
+    "vuepress-plugin-cursor-effects": "0.0.4",
+    "vuepress-plugin-dynamic-title": "0.0.5"
   }
 }

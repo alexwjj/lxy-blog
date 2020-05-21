@@ -14,5 +14,44 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/medium-zoom', 'flowchart'] 
+  plugins: [
+    '@vuepress/medium-zoom',
+    'flowchart',
+    '@vuepress-reco/vuepress-plugin-loading-page',
+    // 看板娘
+    [
+      "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+      {
+        theme: ["z16"],
+        clean: true,
+        modelStyle: {
+          position: "fixed",
+          left: "0px",
+          bottom: "0px",
+          opacity: "0.9",
+          zIndex: 99999
+        }
+      }
+    ],
+    // 鼠标点击特效
+    [
+      "cursor-effects",
+      {
+        size: 2,                    // size of the particle, default: 2
+        shape: ['circle'],  // shape of the particle, default: 'star'， 可选'circle'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+      }
+    ],
+    // 动态标题
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)快快回来！",
+        recoverTime: 2000
+      }
+    ]
+  ] 
 }  
