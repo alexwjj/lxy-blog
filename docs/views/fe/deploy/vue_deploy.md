@@ -1,13 +1,10 @@
 ---
 title: vuepress/Github Pages/travis-ci搭建个人博客
-date: 2020-05-19
+date: 2020-05-18
 tags:
  - vuepress
- - github.io
- - Github Pages
- - travis-ci
 categories:
- - front-end
+ - 前端
 sidebar: false
 ---
 
