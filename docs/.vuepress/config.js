@@ -19,20 +19,20 @@ module.exports = {
     'flowchart',
     '@vuepress-reco/vuepress-plugin-loading-page',
     // 看板娘
-    [
-      "@vuepress-reco/vuepress-plugin-kan-ban-niang",
-      {
-        theme: ["z16"],
-        clean: true,
-        modelStyle: {
-          position: "fixed",
-          right: "0px",
-          bottom: "0px",
-          opacity: "0.9",
-          zIndex: 99999
-        }
-      }
-    ],
+    // [
+    //   "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+    //   {
+    //     theme: ["z16"],
+    //     clean: true,
+    //     modelStyle: {
+    //       position: "fixed",
+    //       right: "0px",
+    //       bottom: "0px",
+    //       opacity: "0.9",
+    //       zIndex: 99999
+    //     }
+    //   }
+    // ],
     // 鼠标点击特效
     [
       "cursor-effects",
@@ -42,16 +42,16 @@ module.exports = {
         zIndex: 999999999           // z-index property of the canvas, default: 999999999
       }
     ],
-    // 动态标题
-    [
-      "dynamic-title",
-      {
-        showIcon: "/favicon.ico",
-        showText: "(/≧▽≦/)",
-        hideIcon: "/failure.ico",
-        hideText: "(●—●)快快回来！",
-        recoverTime: 2000
-      }
-    ]
+    // // 动态标题
+    // [
+    //   "dynamic-title",
+    //   {
+    //     showIcon: "/favicon.ico",
+    //     showText: "(/≧▽≦/)",
+    //     hideIcon: "/failure.ico",
+    //     hideText: "(●—●)快快回来！",
+    //     recoverTime: 2000
+    //   }
+    // ]
   ] 
 }  
