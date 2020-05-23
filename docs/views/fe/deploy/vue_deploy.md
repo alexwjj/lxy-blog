@@ -1,4 +1,4 @@
----
+<!-- ---
 title: vuepress/Github Pages/travis-ci搭建个人博客
 date: 2020-05-18
 tags:
@@ -6,7 +6,7 @@ tags:
 categories:
  - 前端
 sidebar: false
----
+--- -->
 
 ::: tip
 * vuepress好看

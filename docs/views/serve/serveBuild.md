@@ -1,7 +1,7 @@
 ---
 title: 从零搭建服务器
 sidebar: 'auto'
-date: 2020-05-19
+date: 2020-05-21
 tags:
  - serve
 categories:

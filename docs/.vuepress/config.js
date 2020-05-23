@@ -2,7 +2,7 @@ const themeConfig = require('./config/theme/')
 
 module.exports = {
   base: '/',
-  title: "努力终有回报",
+  title: "Alex Lxy",
   description: '种一棵树，最好的时机是十年前，其次是现在',
   dest: 'docs/.vuepress/dist',
   head: [
@@ -43,15 +43,15 @@ module.exports = {
       }
     ],
     // // 动态标题
-    // [
-    //   "dynamic-title",
-    //   {
-    //     showIcon: "/favicon.ico",
-    //     showText: "(/≧▽≦/)",
-    //     hideIcon: "/failure.ico",
-    //     hideText: "(●—●)快快回来！",
-    //     recoverTime: 2000
-    //   }
-    // ]
+    [
+      "dynamic-title",
+      {
+        showIcon: "/favicon.ico",
+        showText: "(/≧▽≦/)老板好！",
+        hideIcon: "/failure.ico",
+        hideText: "(●—●)快快回来！",
+        recoverTime: 2000
+      }
+    ]
   ] 
 }  
