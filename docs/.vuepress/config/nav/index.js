@@ -1,6 +1,6 @@
 module.exports = [
   { text: '首页', link: '/', icon: 'reco-home' },
-  { text: '简历', link: 'http://118.25.49.69:8081/', icon: 'reco-blog' },
+  // { text: '简历', link: 'http://118.25.49.69:8081/', icon: 'reco-blog' },
   { text: '项目经验', 
     icon: 'reco-api',
     items: [
