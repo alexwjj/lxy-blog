@@ -1,11 +1,11 @@
 module.exports = [
   { text: '首页', link: '/', icon: 'reco-home' },
-  // { text: '简历', link: 'http://118.25.49.69:8081/', icon: 'reco-blog' },
+  { text: '简历', link: 'http://alexlxy.club:8081/', icon: 'reco-blog' },
   { text: '项目经验', 
     icon: 'reco-api',
     items: [
-      { text: 'vue电商管理系统', link: 'http://118.25.49.69:8082/', icon: 'reco-api' },
-      { text: 'vue小米移动端', link: 'http://118.25.49.69:8083/', icon: 'reco-api' },
+      { text: 'vue电商管理系统', link: 'http://alexlxy.club:8082/', icon: 'reco-api' },
+      { text: 'vue小米移动端', link: 'http://alexlxy.club:8083/', icon: 'reco-api' },
     ]
   },
   { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
