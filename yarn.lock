@@ -955,6 +955,16 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuepress-reco/vuepress-plugin-kan-ban-niang@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-kan-ban-niang/-/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
+  integrity sha512-ufqpOw0zhLxv3PvoYlHTsjmG4CFiCaQ8dnf950Ov7JmajKgpAMarZ3ObB+xi5ex0sgetxU82YSf+CptQceXQIw==
+
+"@vuepress-reco/vuepress-plugin-loading-page@^1.4.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-loading-page/-/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
+  integrity sha512-yz/KbBq+CY8zxSkeTWHmKB7piFhSQxb9YD07Q9LDjszggL+nW2E5Lipsskay7OTIBQnlGNfSaukAqAJQp6NDug==
+
 "@vuepress/core@^1.0.3":
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/@vuepress/core/download/@vuepress/core-1.5.0.tgz#a1880a550c59e25a4ac52c2d42f6f3ca70c2bb14"
@@ -6360,9 +6370,9 @@ querystring@0.2.0:
   integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 querystringify@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.npm.taobao.org/querystringify/download/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
-  integrity sha1-YOWl/WSn+L+k0qsu1v30yFutFU4=
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
+  integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
@@ -6614,7 +6624,7 @@ require-main-filename@^2.0.0:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
@@ -7752,9 +7762,9 @@ url-parse-lax@^3.0.0:
     prepend-http "^2.0.0"
 
 url-parse@^1.4.3:
-  version "1.4.7"
-  resolved "https://registry.npm.taobao.org/url-parse/download/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
-  integrity sha1-qKg1NejACjFuQDpdtKwbm4U64ng=
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.1.tgz#d5fa9890af8a5e1f274a2c98376510f6425f6e3b"
+  integrity sha512-HOfCOUJt7iSYzEx/UqgtwKRMC6EU91NFhsCHMv9oM03VJcVo2Qrp8T8kI9D7amFf1cu+/3CEhgb3rF9zL7k85Q==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
@@ -7938,6 +7948,16 @@ vuepress-plugin-container@^2.0.2:
   integrity sha1-tYc8uNIbZr1i9/sVqyVOVdz+/3g=
   dependencies:
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-cursor-effects@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-0.0.4.tgz#f8596c9b90da314d46571fc11f11b6b6f634d4a8"
+  integrity sha512-QBzd00awqtBazV7RqQqaCVYh7rIhAhepnNVpCaTDyrq0fsQllxkrCWyz3vg1U1y8d7z7O6BWNwK9SBv4T9Lo/A==
+
+vuepress-plugin-dynamic-title@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-0.0.5.tgz#32b2c6f381c94aa7b247a9833c63c055300463d6"
+  integrity sha512-SVkyxGHMFnVDJz5T78j0imq9DJlfy1XapWbUKzL3IdTKo7iFE0osQRrO78rr3+adXX/oj3Y4KROvfYaI0DEcBQ==
 
 vuepress-plugin-flowchart@^1.4.3:
   version "1.4.3"
