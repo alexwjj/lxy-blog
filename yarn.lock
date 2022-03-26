@@ -955,6 +955,16 @@
   optionalDependencies:
     prettier "^1.18.2"
 
+"@vuepress-reco/vuepress-plugin-kan-ban-niang@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-kan-ban-niang/-/vuepress-plugin-kan-ban-niang-1.0.5.tgz#73b47094f1a07af05923fe9ae6c25a4c33586168"
+  integrity sha512-ufqpOw0zhLxv3PvoYlHTsjmG4CFiCaQ8dnf950Ov7JmajKgpAMarZ3ObB+xi5ex0sgetxU82YSf+CptQceXQIw==
+
+"@vuepress-reco/vuepress-plugin-loading-page@^1.4.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@vuepress-reco/vuepress-plugin-loading-page/-/vuepress-plugin-loading-page-1.6.0.tgz#34b72ed342dc9b15021d077ff8faeafe52146159"
+  integrity sha512-yz/KbBq+CY8zxSkeTWHmKB7piFhSQxb9YD07Q9LDjszggL+nW2E5Lipsskay7OTIBQnlGNfSaukAqAJQp6NDug==
+
 "@vuepress/core@^1.0.3":
   version "1.5.0"
   resolved "https://registry.npm.taobao.org/@vuepress/core/download/@vuepress/core-1.5.0.tgz#a1880a550c59e25a4ac52c2d42f6f3ca70c2bb14"
@@ -5185,9 +5195,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 mississippi@^3.0.0:
   version "3.0.0"
@@ -7938,6 +7948,16 @@ vuepress-plugin-container@^2.0.2:
   integrity sha1-tYc8uNIbZr1i9/sVqyVOVdz+/3g=
   dependencies:
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-cursor-effects@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-0.0.4.tgz#f8596c9b90da314d46571fc11f11b6b6f634d4a8"
+  integrity sha512-QBzd00awqtBazV7RqQqaCVYh7rIhAhepnNVpCaTDyrq0fsQllxkrCWyz3vg1U1y8d7z7O6BWNwK9SBv4T9Lo/A==
+
+vuepress-plugin-dynamic-title@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-dynamic-title/-/vuepress-plugin-dynamic-title-0.0.5.tgz#32b2c6f381c94aa7b247a9833c63c055300463d6"
+  integrity sha512-SVkyxGHMFnVDJz5T78j0imq9DJlfy1XapWbUKzL3IdTKo7iFE0osQRrO78rr3+adXX/oj3Y4KROvfYaI0DEcBQ==
 
 vuepress-plugin-flowchart@^1.4.3:
   version "1.4.3"
